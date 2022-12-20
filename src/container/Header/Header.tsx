@@ -1,24 +1,29 @@
 import Menu from '../../components/Menu/Menu'
 import './Header.css'
-// import background from 'assets/See.png'
+import background from '../../assets/See.png'
 
 type Props = {}
 const Header = (props: Props) => {
     return (
-        <div
-            className="head"
-            // style={{
-            //     backgroundImage: `url(${background})`,
-            // }}
-        >
-            <Menu />
-            <h3 className="title">Explore the world with a smile</h3>
+        <div className="head" style={{ backgroundImage: `url(${background})` }}>
+            <div className="app-bar">
+                <div className="logo"></div>
+                <div>
+                    <Menu />
+                </div>
+            </div>
+
+            <h1 className="title">Explore the world with a smile</h1>
             <p className="text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum,
-                repellat. Quidem provident vitae veritatis animi deserunt
-                voluptatem, rerum officia ad ullam natus enim, pariatur
-                excepturi laudantium praesentium deleniti exercitationem itaque.
+                Mountains, seas and many other interesting places that will give
+                you an unforgettable vacation! Stay with us!
             </p>
+            <form action="" className="form">
+                <input type="text" placeholder="City or Destunation" />
+                <input type="text" placeholder="Date of stay" />
+                <input type="text" placeholder="Person" />
+                <button className="btn-find">Find Trip Now</button>
+            </form>
         </div>
     )
 }
