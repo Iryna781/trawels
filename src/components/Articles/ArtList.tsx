@@ -13,7 +13,13 @@ const ArtList = (props: Props) => {
     return (
         <>
             {console.log('test')}
-            <Grid container direction="row" alignItems="center" spacing={4}>
+            <Grid
+                container
+                direction="column"
+                spacing={4}
+                maxWidth="md"
+                margin="auto"
+            >
                 {artArray.map(({ image, title, text }: ArtProps) => (
                     <Grid item xs={12} sm={6} md={4}>
                         <ArtListItem image={image} title={title} text={text} />

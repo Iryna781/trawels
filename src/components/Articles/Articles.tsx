@@ -5,7 +5,7 @@ type Props = {}
 const Articles = (props: Props) => {
     return (
         <>
-            <Typography variant="h2" align="center">
+            <Typography variant="h2" align="center" marginTop={5}>
                 TRAVEL BLOG
             </Typography>
             <ArtList />

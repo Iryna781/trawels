@@ -1,0 +1,17 @@
+.art-list-item{
+    margin: 20px auto; 
+    padding: 0;  
+}
+.art-image,
+.art-title{
+    text-align: center;
+}
+.btns-wrap{
+    margin-left: 80%;
+    border: 1px solid #43B97F;
+    color: #ffffff;
+    background-color: #43B97F;   
+}
+.art-text{
+    padding: 0 20px;
+}

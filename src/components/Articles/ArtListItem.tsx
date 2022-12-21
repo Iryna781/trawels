@@ -14,8 +14,10 @@ const ArtListItem = (props: Props) => {
                 <h4 className="art-title">{props.title}</h4>
                 <p className="art-text">{props.text}</p>
             </CardContent>
-            <CardActions className="btns-wrap">
-                <Button variant="outlined">Read More</Button>
+            <CardActions>
+                <Button variant="outlined" className="btns-wrap">
+                    Read More
+                </Button>
             </CardActions>
         </Card>
     )

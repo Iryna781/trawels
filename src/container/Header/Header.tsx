@@ -8,7 +8,7 @@ const Header = (props: Props) => {
         <div className="head" style={{ backgroundImage: `url(${background})` }}>
             <div className="app-bar">
                 <div className="logo"></div>
-                <div>
+                <div className="menu">
                     <Menu />
                 </div>
             </div>
