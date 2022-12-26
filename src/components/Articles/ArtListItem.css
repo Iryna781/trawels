@@ -2,16 +2,28 @@
     margin: 20px auto; 
     padding: 0;  
 }
-.art-image,
+
 .art-title{
     text-align: center;
 }
 .btns-wrap{
     margin-left: 80%;
+    margin-bottom: 20px;
     border: 1px solid #43B97F;
     color: #ffffff;
     background-color: #43B97F;   
 }
+.btns-wrap:hover{
+    color: #43B97F;
+    border: 1px solid #43B97F;
+}
 .art-text{
-    padding: 0 20px;
+    padding: 0 50px;
+}
+.art-img{
+    text-align: center;
+}
+.art-img img{
+    width: 700px;
+    height: 500px;
 }
