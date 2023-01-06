@@ -1,6 +1,6 @@
 .art-list-item{
     margin: 20px auto; 
-    padding: 0;  
+    padding-left: 0;
 }
 
 .art-title{
@@ -26,4 +26,7 @@
 .art-img img{
     width: 700px;
     height: 500px;
+}
+.MuiGrid-root>.MuiGrid-item{
+    padding-left: 0;
 }
