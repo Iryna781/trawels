@@ -1,0 +1,29 @@
+.footer{
+    width: 1170px; 
+    height: 250px;
+    margin: 0 auto;
+    background: linear-gradient(rgb(226, 195, 91),rgb(103, 211, 188));
+}
+.footer-1,
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-1{
+    padding: 20px 50px;
+}
+.footer-2{
+    border-top: 1px solid rgb(153, 125, 32);
+    padding: 20px 100px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer-2 p{
+    color: rgb(43, 30, 3);
+}
+.frame{
+    background-image: url("../../assets/Frame.png");
+    width: 170px;
+    height: 30px;
+    margin-top: 10px;
+}

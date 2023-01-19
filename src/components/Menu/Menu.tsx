@@ -1,11 +1,12 @@
 import Button from '@mui/material/Button'
+import { NavLink } from 'react-router-dom'
 
 type Props = {}
 const Menu = (props: Props) => {
     return (
         <>
             <Button color="inherit" className="btn-app">
-                Home
+                <NavLink to="/">Home</NavLink>
             </Button>
             <Button color="inherit" className="btn-up">
                 Discover
@@ -17,7 +18,7 @@ const Menu = (props: Props) => {
                 News
             </Button>
             <Button color="inherit" className="btn-app">
-                About Us
+                <NavLink to="/about">About Us</NavLink>
             </Button>
             <Button color="inherit" className="btn-up">
                 Contact
