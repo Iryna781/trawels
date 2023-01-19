@@ -1,5 +1,10 @@
+import HeaderAll from '../../container/HeaderAll/HeaderAll'
 type Props = {}
 const Services = (props: Props) => {
-    return <div>Services</div>
+    return (
+        <>
+            <HeaderAll />
+        </>
+    )
 }
 export default Services

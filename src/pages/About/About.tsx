@@ -1,5 +1,11 @@
+import HeaderAll from '../../container/HeaderAll/HeaderAll'
+
 type Props = {}
 const About = (props: Props) => {
-    return <div>About</div>
+    return (
+        <>
+            <HeaderAll />
+        </>
+    )
 }
 export default About
