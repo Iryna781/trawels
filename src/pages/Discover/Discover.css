@@ -1,0 +1,38 @@
+.first{
+    width: 1170px;
+    height: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mySwiper{
+    width: 600px;
+    height: 400px;
+}
+.slid{
+    width: 600px;
+    height: 400px; 
+}
+.first-text{
+    width: 560px;
+    height: 400px;
+}
+.title-text{
+    font-weight: bold;
+    font-size: 18px;
+    color: #43B97F;
+}
+p{
+    margin: 0;
+}
+.text-first{
+    width: 1170px;
+    height: 150px;
+    margin: 0 auto 20px auto;
+}
+.text-second{
+    width: 1170px;
+    height: 300px;
+    margin: 0 auto 20px auto;
+}
