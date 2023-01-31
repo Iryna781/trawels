@@ -41,3 +41,14 @@ p{
     height: 360px;
     margin: 0 auto 20px auto
 }
+.back1{
+    background-image: url("../../assets/back1.jpg");
+    width: 1170px;
+    height: 250px;
+    margin: 0 auto 20px auto;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 200px 0 0 50px;
+}
+

@@ -52,19 +52,19 @@ const Sliderdiscovereurope = (props: Props) => {
                 </SwiperSlide>
                 <SwiperSlide className="slid">
                     <img
-                        src="https://e-finland.ru/media/images/stories/images/stories/img_9/parvoo_big.jpg"
+                        src="https://tsikaviy-svit.com/upload/images/%D0%A4%D1%96%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D1%96%D1%8F1.jpg"
                         alt=""
                     />
                 </SwiperSlide>
                 <SwiperSlide className="slid">
                     <img
-                        src="https://e-finland.ru/media/images/stories/images/stories/img_9/parikalla_big.jpg"
+                        src="https://velvetescape.com/wp-content/uploads/2012/03/IMG_2775-640x480.jpeg"
                         alt=""
                     />
                 </SwiperSlide>
                 <SwiperSlide className="slid">
                     <img
-                        src="https://media-1obl-ru.storage.yandexcloud.net/resize_cache/817886/e71ad92e8a086fd0ad26a63a20c0e003/iblock/c3a/c3a75250909f561217c3fbb2c6933717.jpg"
+                        src="https://agrolait.com.ua/wp-content/uploads/populyarnie-osennie-napravleniya-2F88B5A.jpg"
                         alt=""
                     />
                 </SwiperSlide>

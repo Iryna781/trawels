@@ -9,6 +9,7 @@ const Discover = (props: Props) => {
     return (
         <>
             <HeaderAll />
+            <div className="back1">DISCOVER</div>
             <Typography variant="h5" align="center">
                 Your favorite resorts in North America
             </Typography>
