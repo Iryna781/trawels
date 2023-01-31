@@ -58,3 +58,19 @@
     font-weight: bold;
     margin-bottom: 20px;
 }
+.foto{
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.manager{
+    width: 330px;
+    height: 500px;
+    
+}
+.manager img{
+    width: 330px;
+    height: 450px;
+}

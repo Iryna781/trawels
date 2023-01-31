@@ -50,7 +50,29 @@ const About = (props: Props) => {
             <Typography variant="h5" align="center">
                 Our Teams
             </Typography>
-            <div className="foto"></div>
+            <div className="foto">
+                <div className="manager">
+                    <img
+                        src="https://st2.depositphotos.com/3994509/7223/i/600/depositphotos_72239429-stock-photo-business-coach-conducts-training.jpg"
+                        alt=""
+                    />
+                    <p>Manager: Sofia</p>
+                </div>
+                <div className="manager">
+                    <img
+                        src="https://st.depositphotos.com/1011382/2839/i/600/depositphotos_28393887-stock-photo-self-assured-businesman.jpg"
+                        alt=""
+                    />
+                    <p>Manager: George</p>
+                </div>
+                <div className="manager">
+                    <img
+                        src="https://img.freepik.com/premium-photo/girl-manager-in-workplace-writes-in-a-notebook-talking-on-the-phone-while-sitting_8119-1324.jpg"
+                        alt=""
+                    />
+                    <p>Manager: Penelopa</p>
+                </div>
+            </div>
         </>
     )
 }
