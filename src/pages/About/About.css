@@ -1,0 +1,60 @@
+.back4{
+    background-image: url("../../assets/back4.jpg");
+    width: 1170px;
+    height: 250px;
+    margin: 0 auto 20px auto;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 200px 0 0 50px;
+}
+.about-text{
+    text-align: center;
+    margin: 10px 0;
+}
+.why{
+    width: 1170px;
+    height: 250px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.why-first{
+    width: 200px;
+    height: 200px;
+    background-image: url("../../assets/about.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.why-second{
+    width: 200px;
+    height: 200px;
+    background-image: url("../../assets/aboutt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.why-third{
+    width: 200px;
+    height: 200px;
+    background-image: url("../../assets/abouttt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.why-content{
+    width: 1170px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 50px auto;
+}
+.left-why{
+    width: 400px;
+    height: 200px;
+}
+.why-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

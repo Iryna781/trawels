@@ -1,14 +1,7 @@
 import HeaderAll from '../../container/HeaderAll/HeaderAll'
 import './Contact.css'
-import {
-    Card,
-    CardContent,
-    TextareaAutosize,
-    TextField,
-    Typography,
-    Button,
-} from '@mui/material'
-import React, { useState } from 'react'
+import { TextField, Typography, Button } from '@mui/material'
+
 type Props = {}
 
 const Contact = (props: Props) => {
