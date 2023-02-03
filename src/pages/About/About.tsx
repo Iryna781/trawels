@@ -40,7 +40,7 @@ const About = (props: Props) => {
                         emotions along with Time To Travel!
                     </p>
                 </div>
-                <div>
+                <div className="img-about">
                     <img
                         src="https://s.grenka.ua/promo/review/2018/06.2018/chemodany/easy-jet-tricks-03.png"
                         alt=""
@@ -70,7 +70,7 @@ const About = (props: Props) => {
                         src="https://img.freepik.com/premium-photo/girl-manager-in-workplace-writes-in-a-notebook-talking-on-the-phone-while-sitting_8119-1324.jpg"
                         alt=""
                     />
-                    <p>Manager: Penelopa</p>
+                    <p>Manager: Penelope</p>
                 </div>
             </div>
         </>

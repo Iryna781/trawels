@@ -6,7 +6,7 @@ const Menu = (props: Props) => {
         <>
             <MenuItem to="/">Home</MenuItem>
             <MenuItem to="/discover">Discover</MenuItem>
-            <MenuItem to="/services">Services</MenuItem>
+            <MenuItem to="/services">Service</MenuItem>
             <MenuItem to="/news">News</MenuItem>
             <MenuItem to="/about">About Us</MenuItem>
             <MenuItem to="/contact">Contact</MenuItem>

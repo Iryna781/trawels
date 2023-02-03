@@ -15,7 +15,7 @@ const Contact = (props: Props) => {
             <div className="contact">
                 <div className="right-contact">
                     <form className="form">
-                        <h3>Please leave your contacts</h3>
+                        <h4>Please leave your contacts</h4>
                         <h5 className="name">Name</h5>
                         <div>
                             <TextField
