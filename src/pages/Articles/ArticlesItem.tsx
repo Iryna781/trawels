@@ -4,9 +4,8 @@ type Props = {
     image: string
     title: string
     text: string
-    category: string
 }
-const ArticlesItem = ({ image, title, text, category }: Props) => {
+const ArticlesItem = ({ image, title, text }: Props) => {
     return (
         <>
             <Card>
@@ -16,7 +15,6 @@ const ArticlesItem = ({ image, title, text, category }: Props) => {
                     </div>
                     <h4 className="article-title">{title}</h4>
                     <p className="article-text">{text}</p>
-                    <p>{category}</p>
                 </CardContent>
             </Card>
         </>

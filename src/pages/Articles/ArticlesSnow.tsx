@@ -7,29 +7,39 @@ type AllProps = {
     image: string
     title: string
     text: string
-    category: string
+    category?: string
 }
 type Props = {}
 const ArticlesSnow = (props: Props) => {
     return (
         <>
             <HeaderAll />
+            <div className="back4">SERVICE</div>
             <Typography variant="h5" align="center" marginTop="20px">
                 WINTER VACATION
             </Typography>
             <Grid container direction="row" alignItems="center">
-                {allArray.map(
-                    ({ id, image, title, text, category }: AllProps) => (
-                        <Grid item xs={12} sm={6} md={4} key={id}>
+                {allArray
+                    .filter(
+                        ({ category }: AllProps) =>
+                            category === 'winter vacation'
+                    )
+                    .map(({ id, image, title, text }: AllProps) => (
+                        <Grid
+                            item
+                            xs={12}
+                            sm={6}
+                            md={8}
+                            margin="20px auto"
+                            key={id}
+                        >
                             <ArticlesItem
                                 image={image}
                                 title={title}
                                 text={text}
-                                category={category}
                             />
                         </Grid>
-                    )
-                )}
+                    ))}
             </Grid>
         </>
     )

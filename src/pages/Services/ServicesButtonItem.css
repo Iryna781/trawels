@@ -1,10 +1,16 @@
 .button-item{
     color: #43B97F;
     text-decoration: none;
+    color: #43B97F;
 }
 .button-item-active{
     text-decoration: none;
     background-color: #43B97F;
     color: #ffffff;
 
+}
+.btn-service button{
+    border: 1px solid #43B97F;
+    margin: 0 20px;
+    color: #43B97F;  
 }

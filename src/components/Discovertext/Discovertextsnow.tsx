@@ -1,5 +1,5 @@
 import Sliderdiscoversnow from '../Slider/Sliderdiscoversnow'
-
+import './Discovertext.css'
 type Props = {}
 const Discovertext = (props: Props) => {
     return (
