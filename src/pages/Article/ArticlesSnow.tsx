@@ -1,8 +1,8 @@
-import { Grid, Typography } from '@mui/material'
+import { Button, CardActions, Grid, Typography } from '@mui/material'
 import HeaderAll from '../../container/HeaderAll/HeaderAll'
 import ArticlesItem from './ArticlesItem'
 import allArray from '../../components/Articles/allArray'
-import './ArticlesCity.css'
+import ButtonBack from '../../components/Buttons/ButtonsBack'
 type AllProps = {
     id: number
     image: string
@@ -11,18 +11,19 @@ type AllProps = {
     category?: string
 }
 type Props = {}
-const ArticlesCity = (props: Props) => {
+const ArticlesSnow = (props: Props) => {
     return (
         <>
             <HeaderAll />
-            <div className="back6">SERVICE</div>
+            <div className="back4">SERVICE</div>
             <Typography variant="h5" align="center" marginTop="20px">
-                CITY REST
+                WINTER VACATION
             </Typography>
             <Grid container direction="row" alignItems="center">
                 {allArray
                     .filter(
-                        ({ category }: AllProps) => category === 'city rest'
+                        ({ category }: AllProps) =>
+                            category === 'winter vacation'
                     )
                     .map(({ id, image, title, text }: AllProps) => (
                         <Grid
@@ -41,7 +42,10 @@ const ArticlesCity = (props: Props) => {
                         </Grid>
                     ))}
             </Grid>
+            <div>
+                <ButtonBack to="/back">Back</ButtonBack>
+            </div>
         </>
     )
 }
-export default ArticlesCity
+export default ArticlesSnow

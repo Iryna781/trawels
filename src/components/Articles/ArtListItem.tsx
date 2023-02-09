@@ -18,7 +18,7 @@ const ArtListItem = ({ image, title, text }: Props) => {
             </CardContent>
             <CardActions>
                 <Button variant="outlined" className="btns-wrap">
-                    Read More
+                    READ MORE
                 </Button>
             </CardActions>
         </Card>

@@ -3,6 +3,7 @@ import HeaderAll from '../../container/HeaderAll/HeaderAll'
 import ArticlesItem from './ArticlesItem'
 import allArray from '../../components/Articles/allArray'
 import './ArticlesSea.css'
+import ButtonBack from '../../components/Buttons/ButtonsBack'
 type AllProps = {
     id: number
     image: string
@@ -41,6 +42,9 @@ const ArticlesSea = (props: Props) => {
                         </Grid>
                     ))}
             </Grid>
+            <div>
+                <ButtonBack to="/back">Back</ButtonBack>
+            </div>
         </>
     )
 }

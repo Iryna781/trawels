@@ -1,5 +1,4 @@
-import { Button, Typography } from '@mui/material'
-import { NavLink } from 'react-router-dom'
+import { Typography } from '@mui/material'
 import HeaderAll from '../../container/HeaderAll/HeaderAll'
 import './Services.css'
 import ServicesButtonItem from './ServicesButtonItem'
@@ -20,7 +19,6 @@ const Services = (props: Props) => {
                 <ServicesButtonItem to="/sea">sea vacation</ServicesButtonItem>
                 <ServicesButtonItem to="/city">city rest</ServicesButtonItem>
             </div>
-
             <div className="img1">
                 <div className="climbing">
                     <img src="/images/climbing.jpg" alt="" />

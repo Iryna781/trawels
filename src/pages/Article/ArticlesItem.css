@@ -13,3 +13,14 @@
     padding: 0 40px;
     text-align: left;
 }
+.btns-service{
+    margin-left: 75%;
+    margin-bottom: 20px;
+    border: 1px solid #43B97F;
+    color: #ffffff;
+    background-color: #43B97F;  
+}
+.btns-service:hover{
+    color: #43B97F;
+    border: 1px solid #43B97F;
+}
