@@ -35,6 +35,7 @@ const ArticlesSea = (props: Props) => {
                             key={id}
                         >
                             <ArticlesItem
+                                id={id}
                                 image={image}
                                 title={title}
                                 text={text}

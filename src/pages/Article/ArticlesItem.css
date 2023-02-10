@@ -24,3 +24,12 @@
     color: #43B97F;
     border: 1px solid #43B97F;
 }
+.btn-like{
+    margin: 0 92%; 
+    border:1px solid #43B97F;
+    color: #43B97F;
+}
+.btn-like:hover{
+    border:1px solid #43B97F;
+}
+

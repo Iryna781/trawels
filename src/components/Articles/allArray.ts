@@ -8,7 +8,7 @@ type AllProps ={
 const allArray: AllProps[] = [
     {
         id:1,
-        image: "/images/boy.jpg",
+        image: "/images/boy.webp",
         title: "Climbing",
         text: "We have programs for everyone ranging from those who want a fun initial climbing experience, to those seeking serious expedition skills appropriate for the most demanding high altitude climbs. We also offer solid professional training course. Our small groups and low student-to-instructor ratio help us meet individual expectations, and help our guests to progress as quickly as their ambition and ability allow. No previous experience is required for any of these courses.",
         category: "winter vacation",
