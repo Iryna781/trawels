@@ -12,7 +12,6 @@ type Props = {}
 const ArtList = (props: Props) => {
     return (
         <>
-            {console.log('test')}
             <Grid
                 container
                 direction="column"
