@@ -1,12 +1,15 @@
 import { Card, CardActions, CardContent, Button } from '@mui/material'
+import ButtonRead from '../Buttons/ButtonRead'
 import './ArtListItem.css'
 
 type Props = {
     image: string
     title: string
     text: string
+    button: string
 }
-const ArtListItem = ({ image, title, text }: Props) => {
+
+const ArtListItem = ({ image, title, text, button }: Props) => {
     return (
         <Card className="art-list-item">
             <CardContent>
@@ -15,12 +18,8 @@ const ArtListItem = ({ image, title, text }: Props) => {
                 </div>
                 <h4 className="art-title">{title}</h4>
                 <p className="art-text">{text}</p>
+                <ButtonRead to="/read">{button}</ButtonRead>
             </CardContent>
-            <CardActions>
-                <Button variant="outlined" className="btns-wrap">
-                    READ MORE
-                </Button>
-            </CardActions>
         </Card>
     )
 }
