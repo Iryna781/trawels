@@ -1,4 +1,5 @@
 import { Typography } from '@mui/material'
+import Reviews from '../../components/Reviews/Reviews'
 import HeaderAll from '../../container/HeaderAll/HeaderAll'
 import './About.css'
 
@@ -73,6 +74,7 @@ const About = (props: Props) => {
                     <p>Manager: Penelope</p>
                 </div>
             </div>
+            <Reviews />
         </>
     )
 }

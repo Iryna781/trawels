@@ -1,5 +1,4 @@
 import Articles from '../../components/Articles/Articles'
-import Reviews from '../../components/Reviews/Reviews'
 import Slider from '../../components/Slider/Slider'
 import Header from '../../container/Header/Header'
 
@@ -10,7 +9,6 @@ const Home = (props: Props) => {
             <Header />
             <Slider />
             <Articles />
-            <Reviews />
         </>
     )
 }
