@@ -6,9 +6,6 @@ import ArticlesSnow from '../../pages/Article/ArticlesSnow'
 import Contact from '../../pages/Contact/Contact'
 import Discover from '../../pages/Discover/Discover'
 import Home from '../../pages/Home/Home'
-import HomeArticleCity from '../../pages/Home/HomeArticleCity'
-import HomeArticleSea from '../../pages/Home/HomeArticleSea'
-import HomeArticleSnow from '../../pages/Home/HomeArticleSnow'
 import News from '../../pages/News/News'
 import Services from '../../pages/Services/Services'
 
@@ -27,9 +24,6 @@ const Main = (props: Props) => {
                 <Route path="sea" element={<ArticlesSea />} />
                 <Route path="city" element={<ArticlesCity />} />
                 <Route path="back" element={<Services />} />
-                <Route path="read" element={<HomeArticleSnow />} />
-                <Route path="read" element={<HomeArticleSea />} />
-                <Route path="read" element={<HomeArticleCity />} />
             </Routes>
         </>
     )

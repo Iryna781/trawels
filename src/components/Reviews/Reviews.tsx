@@ -87,27 +87,34 @@ const Reviews = (props: Props) => {
                     </Card>
                 ))}
             </div>
-            <form onSubmit={handleSubmit}>
-                <h4>Please leave a review</h4>
-                <div>
-                    <TextField
-                        size="small"
-                        placeholder="Your name"
-                        value={newReview.name}
-                        onChange={handleName}
-                    />
+            <form onSubmit={handleSubmit} className="review-form">
+                <h4 className="leave">Please leave a review</h4>
+                <div className="field">
+                    <div className="formfirst">
+                        <TextField
+                            placeholder="Your name"
+                            value={newReview.name}
+                            onChange={handleName}
+                            className="field-first"
+                        />
+                    </div>
+                    <div className="area">
+                        <TextareaAutosize
+                            minRows={5}
+                            placeholder="Your review"
+                            value={newReview.text}
+                            onChange={handleText}
+                            className="area-field"
+                        />
+                    </div>
+                    <Button
+                        type="submit"
+                        variant="outlined"
+                        className="btn-form"
+                    >
+                        Send
+                    </Button>
                 </div>
-                <div style={{ margin: '20px 0' }}>
-                    <TextareaAutosize
-                        minRows={5}
-                        placeholder="Your review"
-                        value={newReview.text}
-                        onChange={handleText}
-                    />
-                </div>
-                <Button type="submit" variant="outlined">
-                    Send
-                </Button>
             </form>
         </>
     )

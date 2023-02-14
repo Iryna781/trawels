@@ -6,7 +6,6 @@ type ArtProps = {
     image: string
     title: string
     text: string
-    button: string
 }
 
 type Props = {}
@@ -20,14 +19,9 @@ const ArtList = (props: Props) => {
                 maxWidth="md"
                 margin="auto"
             >
-                {artArray.map(({ image, title, text, button }: ArtProps) => (
+                {artArray.map(({ image, title, text }: ArtProps) => (
                     <Grid item xs={12} sm={6} md={4}>
-                        <ArtListItem
-                            image={image}
-                            title={title}
-                            text={text}
-                            button={button}
-                        />
+                        <ArtListItem image={image} title={title} text={text} />
                     </Grid>
                 ))}
             </Grid>
