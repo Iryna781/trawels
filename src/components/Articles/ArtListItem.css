@@ -1,17 +1,11 @@
 .art-list-item{
     margin: 20px auto; 
-    padding-left: 0;
-    
+    padding-left: 0; 
 }
-/* .cont{
-    display: flex;
-    justify-content: space-between;
-} */
 .art-title{
     text-align: center;
     margin-top: 0;
 }
-
 .art-text{
     padding: 0 30px;
     text-align: left;
