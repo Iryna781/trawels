@@ -10,12 +10,14 @@ type Props = {
 const ArtListItem = ({ image, title, text }: Props) => {
     return (
         <Card className="art-list-item">
-            <CardContent>
+            <CardContent className="cont">
                 <div className="art-img">
                     <img src={image} alt="" />
                 </div>
-                <h4 className="art-title">{title}</h4>
-                <p className="art-text">{text}</p>
+                <div>
+                    <h4 className="art-title">{title}</h4>
+                    <p className="art-text">{text}</p>
+                </div>
             </CardContent>
         </Card>
     )

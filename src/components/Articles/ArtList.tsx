@@ -20,7 +20,7 @@ const ArtList = (props: Props) => {
                 margin="auto"
             >
                 {artArray.map(({ image, title, text }: ArtProps) => (
-                    <Grid item xs={12} sm={6} md={4}>
+                    <Grid item xs={12} sm={10} md={10}>
                         <ArtListItem image={image} title={title} text={text} />
                     </Grid>
                 ))}

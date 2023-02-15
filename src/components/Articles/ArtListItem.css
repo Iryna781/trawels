@@ -1,22 +1,29 @@
 .art-list-item{
     margin: 20px auto; 
     padding-left: 0;
+    
 }
-
+/* .cont{
+    display: flex;
+    justify-content: space-between;
+} */
 .art-title{
     text-align: center;
+    margin-top: 0;
 }
 
 .art-text{
-    padding: 0 50px;
+    padding: 0 30px;
+    text-align: left;
+    font-size: 14px;
 }
 .art-img{
     text-align: center;
-    
+    margin-bottom: 20px;
 }
 .art-img img{
-    width: 700px;
-    height: 500px;
+    width: 600px;
+    height: 400px;
 }
 .MuiGrid-root>.MuiGrid-item{
     padding-left: 0;

@@ -55,12 +55,13 @@
    padding: 0;
    border: 1px solid #43B97F;
    border-radius: 10px;
-   color: #43B97F;
    margin-top: 20px;
+   background-color: #43B97F;
+   color: #ffffff;
 }
 .btn-form:hover{
-    background-color: #43B97F;
-    color: #ffffff;
+    color: #43B97F;
+    border: 1px solid #43B97F;
 }
 .leave{
     text-align: center;
