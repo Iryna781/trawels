@@ -1,7 +1,6 @@
 import {configureStore} from '@reduxjs/toolkit'
 import LikeReducer from './LikeReducer'
 
-
 export const store = configureStore({
     reducer:{
        LikeArticles:LikeReducer 

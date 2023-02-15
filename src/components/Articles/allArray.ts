@@ -11,16 +11,14 @@ const allArray: AllProps[] = [
         image: "/images/boy.webp",
         title: "Climbing",
         text: "We have programs for everyone ranging from those who want a fun initial climbing experience, to those seeking serious expedition skills appropriate for the most demanding high altitude climbs. We also offer solid professional training course. Our small groups and low student-to-instructor ratio help us meet individual expectations, and help our guests to progress as quickly as their ambition and ability allow. No previous experience is required for any of these courses.",
-        category: "winter vacation",
-        
+        category: "winter vacation",  
     },
     {
         id:2,
         image: "/images/girl.jpg",
         title: "Ski",
         text: "For those who enjoy an active vacation, we have lots of suggestions in the United States of America. Use our Travel Guide as a source of inspiration for planning your next adventure and browse through descriptions and route details of the most beautiful ski tours.Our low guide to guest ratios give us the freedom to accommodate individual goals and expectations. Custom trips and private guiding are available. Visit us for a backcountry ski trip you will not forget!",
-        category: "winter vacation",
-        
+        category: "winter vacation", 
     },
     {
         id:3,
@@ -50,6 +48,5 @@ const allArray: AllProps[] = [
         text: "Are you tired of walking, constant activity and just want to rest? We can offer you a leisure tour. You have a choice of accommodations - hotels or lonely lodges in the area. Spas, bathhouses, hot springs, private beaches, bars and cafes are available. And all this on one territory, a few steps from each other. You can also order a separate transport, which will accompany you all the time. And if you suddenly feel like partying, every night we hold theme parties with free admission and the best drinks and playlists.",
         category: "city rest",
     },
-
 ]
 export default allArray

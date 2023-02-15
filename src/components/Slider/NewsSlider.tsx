@@ -1,5 +1,5 @@
 import { Autoplay, Navigation, Pagination } from 'swiper'
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
+import { Swiper, SwiperSlide } from 'swiper/react'
 import './NewsSlider.css'
 
 type Props = {}
