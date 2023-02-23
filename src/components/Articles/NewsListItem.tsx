@@ -1,4 +1,4 @@
-import { Card, CardActions, CardContent, Button } from '@mui/material'
+import { Card, CardContent } from '@mui/material'
 import './NewsListItem.css'
 
 type Props = {
